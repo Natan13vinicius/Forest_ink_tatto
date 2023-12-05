@@ -1,10 +1,10 @@
 @media screen and (max-width:700px) {
     #home .carousel-inner img {
-        height: 14em;
+        height: 13em;
     }
 
     h1 {
-        font-size: 86px;
+        font-size: 80px;
     }
 
     p {
