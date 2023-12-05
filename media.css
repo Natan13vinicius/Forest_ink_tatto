@@ -1,0 +1,23 @@
+@media screen and (max-width:700px) {
+    #home .carousel-inner img {
+        height: 14em;
+    }
+
+    h1 {
+        font-size: 86px;
+    }
+
+    p {
+        font-size: .90em;
+    }
+
+    .tab-pane img {
+        margin-bottom: 1em;
+        height: 75vh;
+    }
+
+    .nav-cardapio button {
+        margin-bottom: 1em;
+    }
+
+}

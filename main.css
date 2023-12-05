@@ -209,8 +209,8 @@ a {
 /* galeria procedimentos */
 .nav-cardapio .nav-link.active,
 #fale-conosco button {
-    background-color: #e15f41;
-    color: #fff;
+    background-color: var(--cor-texto);
+    color: #000000;
 }
 
 .tab-pane img {
@@ -221,7 +221,7 @@ a {
 }
 
 .nav-cardapio .nav-link:hover {
-    color: #e15f41;
+    color: #fff;
 }
 
 /* fale conosco */
