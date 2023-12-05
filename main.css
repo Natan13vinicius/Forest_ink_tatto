@@ -1,0 +1,237 @@
+/* root */
+:root {
+    --cor-primaria: black;
+    --cor-botao: RGB(234, 88, 12);
+    --cor-texto: #fff;
+    --cor-link: RGB(255, 255, 255);
+    --cor-borda: #b73b12;
+}
+
+.teste {
+    background-color: red;
+}
+
+p,
+h1 {
+    color: var(--cor-texto);
+}
+
+a {
+    color: var(--cor-botao);
+    list-style: none;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 96px;
+    line-height: 100px;
+    font-weight: 800;
+
+}
+
+body {
+    /* font-family: Roboto, sans-serif; */
+    background-color: var(--cor-primaria);
+}
+
+p,
+button,
+a {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* navbar */
+.navbar {
+    background-color: var(--cor-primaria);
+    border-bottom: 2px solid var(--cor-botao);
+
+}
+
+.logo-forest-svg {
+    height: 6em;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #e15f41;
+}
+
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: var(--cor-botao);
+}
+
+
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+/* slide */
+
+.logo-slide {
+    opacity: 1;
+    height: 14em;
+}
+
+.carousel button,
+.tatto-section button,
+.piercing-section button {
+    color: var(--cor-botao);
+    background-color: transparent;
+    border: 2px solid var(--cor-borda);
+    border-radius: none;
+}
+
+.slide-background1 {
+    width: 100%;
+    height: 84vh;
+    background-image: url(./images/slide_home/image-slide-1.png);
+    background-size: cover;
+}
+
+.slide-background2 {
+    width: 100%;
+    height: 84vh;
+    background-image: url(./images/slide_home/image-slide-2.png);
+    background-size: cover;
+}
+
+/* tatto*/
+.tatto-fluid {
+    background-image: url(./images/slide_home/image-slide-2.png);
+    background-position: center;
+    background-size: cover;
+    border-left: 2px solid var(--cor-borda);
+}
+
+.tatto-section {
+    /* border-left: 2px solid var(--cor-borda); */
+    background-size: cover;
+    background-color: red;
+    width: 100%;
+    height: 90vh;
+    background-image: url(./images/slide_home/image-slide-2.png);
+    display: flex;
+    align-items: center;
+
+}
+
+/* tatto_portfolio */
+#tatto_portfolio {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+/* piercing*/
+.piercing-fluid {
+    background-image: url(./images/piercing/image\ 8.png);
+    background-position: center;
+    background-size: cover;
+    border-left: 2px solid var(--cor-borda);
+}
+
+.piercing-section {
+    /* border-left: 2px solid var(--cor-borda); */
+    background-size: cover;
+    background-color: red;
+    width: 100%;
+    height: 90vh;
+    background-image: url(./images/piercing/image\ 8.png);
+    display: flex;
+    align-items: center;
+
+}
+
+.tatto-section h1,
+.piercing-section h1 {
+    border-bottom: 3px solid var(--cor-borda);
+}
+
+/* sobre o forest ink */
+/* titulo das sessoes */
+.espaco-container-imagem-1 {
+    background-image: url(./images/espaco/espaco-1.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    height: 70vh;
+    opacity: 0.2;
+    border-left: 1px solid var(--cor-borda);
+    border-bottom: 1px solid var(--cor-borda);
+
+
+}
+
+
+
+
+
+.espaco-container-imagem-2 {
+    background-image: url(./images/espaco/espaco-2.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    height: 70vh;
+    border-left: 1px solid var(--cor-borda);
+    border-bottom: 1px solid var(--cor-borda);
+}
+
+
+
+
+
+
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    color: var(--cor-texto);
+}
+
+
+
+#sobre-o-restaurante,
+#cardapio {
+    background-color: var(--cor-primaria);
+}
+
+/* eventos */
+.text-colored {
+    color: var(--cor-botao);
+
+}
+
+/* galeria procedimentos */
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #e15f41;
+    color: #fff;
+}
+
+.tab-pane img {
+    border-radius: 5px;
+    border-left: 1px solid var(--cor-link);
+    border-bottom: 1px solid var(--cor-borda);
+
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #e15f41;
+}
+
+/* fale conosco */
+.social-links li {
+    list-style: none;
+    display: inline;
+
+}
+
+.social-links a {
+    text-decoration: none;
+
+}
